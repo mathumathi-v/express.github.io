@@ -1,0 +1,298 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url('/images/z6301.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 200px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* vertical-align: middle; */
+  text-align: center;
+  margin-inline: max(3rem, 20px);
+}
+
+.title h3 {
+  letter-spacing: 1.5px;
+  margin-top: 4%;
+  margin-left: 3%;
+  font-size: 1.6rem;
+  border: 2px solid #464545;
+  background-color: rgba(1, 97, 171, 1);
+  color: #E5E5E5;
+  padding: 1.5%;
+  border-radius: 12px;
+}
+
+.content {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px 50px;
+}
+
+section {
+  margin: 50px;
+}
+
+section p {
+  font-weight: bolder;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heartemail {
+  padding: 5px;
+}
+
+.userDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftDetails input,
+.rightDetails textarea,
+.heartemail input {
+  width: 20vw;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #64e0ff;
+  box-shadow: 1px 1px 5px 1px #464545;
+  margin: 5px;
+}
+
+.gender {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #464545;
+  color: #000;
+}
+
+.gender input:hover {
+  background-color: #fff;
+}
+
+.rightDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightDetails select {
+  border-radius: 3px;
+}
+
+.rightDetails textarea {
+  height: 80px;
+}
+
+select {
+  /* width: 20%; */
+  height: 30px;
+  padding: 0px 20px;
+  border-radius: 7px;
+  background-color: #686767;
+  color: white;
+}
+
+.mode {
+  margin-left: 60px
+}
+
+.send {
+  float: right;
+  margin: 10px 100px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #0161AB;
+  color: #E7E9E8;
+  font-weight: 700;
+  border: none;
+  text-decoration: none;
+}
+
+.button:active {
+  background-color: #0161AB;
+  box-shadow: 0 5px gray;
+  transform: translateY(4px);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/163791.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  li {
+    color: #fff;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heartemail {
+    width: 190px;
+    padding: 10px 10px;
+    border-radius: 2px;
+    border: none;
+    margin: 40px;
+  }
+
+  .heartemail:active {
+    border-color: #fff;
+  }
+
+  .userDetails {
+    display: block;
+  }
+
+  .leftDetails {
+    display: flex;
+  }
+
+  .leftDetails input,
+  .rightDetails textarea,
+  .heartemail input {
+    width: 60vw;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #64e0ff;
+    box-shadow: 1px 1px 5px 1px #464545;
+    margin: 5px;
+  }
+
+  .gender {
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #464545;
+    color: #000;
+    margin-left: 12px;
+    border-radius: 0px;
+  }
+
+  .rightDetails {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightDetails select {
+    border-radius: 1px;
+  }
+
+  .rightDetails textarea {
+    height: 80px;
+    margin-left: 12px;
+  }
+
+
+  .main select {
+    width: 200px;
+    margin: 20px;
+  }
+
+  .mode {
+    margin: 20px 40px;
+    width: 200px;
+  }
+
+  .title img {
+    width: 15%;
+    height: 15%;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .title h3 {
+    font-size: 60%;
+    border-radius: 7px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .subcon {
+    order: 2;
+  }
+
+  .content img {
+    width: 70%;
+    height: 70%;
+    order: 1
+  }
+
+  .content:nth-child(1) {
+    order: 2;
+  }
+
+  .content:nth-child(2) {
+    order: 2;
+  }
+
+  .send {
+    /* float: right;
+    margin: -50px 50px 0px 0px;
+    width: 200px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}

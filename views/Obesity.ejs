@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESTIMATION OF HUMAN HEALTH PARAMETER IN PUBLIC PLACES</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="shortcut icon" type="image/jpg" href="/images/zimage 1.ico" />
+  <script type="text/javascript" src="/javascript/preserveSys.js"></script>
+</head>
+
+<body>
+  <div class="title">
+    <img src="/images/zimage 1.png" width="7%" height="7%">
+    <h3>WELCOME TO HEALTH PREVENTION SYSTEM </h3>
+  </div>
+
+  <div class="content">
+    <div class="subcon">
+      <h3 style="text-align: left;">Obesity Symtoms</h3>
+      <ul style="font-size:1.05rem; text-align: left;">
+        <li>Difficulty in sleeping.</li>
+        <li>Back and/or joint pains.</li>
+        <li>Excessive sweating.</li>
+        <li>Infections in skin folds.</li>
+        <li>Depression.</li>
+        <li>Feeling of shortness of breath (dyspnoea).</li>
+      </ul>
+    </div>
+    <img src="/images/zimage 3.png" width="200px" height="200px">
+  </div>
+  <section details>
+    <div style="font-weight: bolder;">
+      Enter Your Details:
+    </div><br>
+    <div class="userDetails">
+      <div class="leftDetails">
+        <input id="name" placeholder="Enter the Full name" />
+        <input id="age" type="number" placeholder="Enter Age" />
+        <input id="mobileNumber" type="number" placeholder="Enter the Mobile Number" />
+        <input placeholder="abc@gmail.com" value="prasanth312003@gmail.com" id="email" />
+      </div>
+      <div class="rightDetails">
+        <select id="Gender" class="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <textarea id="address" placeholder="Enter your address"></textarea>
+      </div>
+    </div>
+  </section>
+  <section>
+    <p>Obesity Specialized Hospitals</p>
+    <div class="main">
+      <select id="hospital" class="box">
+        <option>Plese Select Hospitals</option>
+        <option value="ABC Hospital">ABC Hospital</option>
+        <option value="PQRS Hospital">PQRS Hospital</option>
+        <option value="XYZ Select Hospitals">XYZ Select Hospitals</option>
+      </select>
+      <select id="doctor" class="box">
+        <option>Select Doctor Name</option>
+        <option value="Doctor A">Doctor A</option>
+        <option value="Doctor B">Doctor B</option>
+        <option value="Doctor C">Doctor C</option>
+      </select>
+      <select id="time" class="box">
+        <option>Timings</option>
+        <option value="10.00 am">10.00 am</option>
+        <option value="03.00 pm">03.00 pm</option>
+        <option value="07.00 pm">07.00 pm</option>
+
+      </select>
+      <br>
+    </div>
+  </section>
+  <section>
+    <p><span>Conselting Modes</span></p>
+    <select class="mode" id="selectionMode">
+      <option>Select Type</option>
+      <option>Audo Call</option>
+      <option>Virtual Mode</option>
+      <option>Physical Mode</option>
+    </select>
+  </section>
+  <br>
+  <div class="send">
+    <!-- <a href="/Submit" class="button"><button type="button" name="Send Request" class="button"
+        onclick="sendheartmail()">Send
+        Request</button></a> -->
+    <button type="button" name="Send Request" class="button" onclick="sendheartmail()"><a href="/Submit">Send
+        Request</a></button>
+  </div>
+</body>
+
+</html>
