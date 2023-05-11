@@ -35,5 +35,9 @@ app.use(function (err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
 });
+const port = 3000; // or any other port you prefer
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
 
 module.exports = app;
